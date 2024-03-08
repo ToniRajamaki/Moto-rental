@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #4db8ef;
+  --font-color: #111111;
+  --light-font: #64676a;
+  --light-bg: #f6fcff;
+  
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--font-color);
+  margin-bottom: 1.6rem;
+}
+
+p {
+  color: var(--light-font);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+
+section{
+  background-color: rgb(187, 81, 81);
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
