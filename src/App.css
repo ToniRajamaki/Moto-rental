@@ -9,7 +9,7 @@
   --font-color: #111111;
   --light-font: #64676a;
   --light-bg: #f6fcff;
-  
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -25,7 +25,11 @@ p {
 }
 
 section{
-  background-color: rgb(187, 81, 81);
+  background-color: rgb(206, 206, 206);
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+  border-bottom: var(--main)0.3em solid;
 }
 
 
