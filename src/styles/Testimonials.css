@@ -1,0 +1,52 @@
+.testimonials{
+    background-color: var(--light-bg);
+    width: 100%;
+    margin: auto;
+
+}
+.testimonials-container{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+
+.featured-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    margin: 20px 0;
+    gap: 20px; /* Ensures space between cards */
+  }
+  
+
+
+  .swiper{
+    height: calc(100% + 2em);
+    height: 30em;
+  }
+  
+  
+    
+    /* Optional: Additional customization for the pagination bullets */
+    .swiper-pagination-bullet {
+      width: 12px; /* Adjust the bullet width */
+      height: 12px; /* Adjust the bullet height */
+      opacity: 1; /* Adjust the non-active bullet opacity */
+      --swiper-pagination-bullet-inactive-color: #999999;
+      --swiper-pagination-color: var(--main); /* Sets the pagination bullet color */
+    }
+    
+    .swiper-pagination-bullet-active {
+      /* Specific styles for the active bullet, if needed */
+      
+    }
+    
+  
+  
+  
+  
+  

@@ -1,40 +1,63 @@
-import React from 'react'
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/free-mode';
 import "../styles/Testimonials.css"
+// Import modules from swiper/modules
+import { Navigation, Pagination, Autoplay, FreeMode } from 'swiper/modules';
+
 function Testimonials() {
+  const testimonials = [
+    {
+        imgSrc: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample3.jpg",
+        name: "Eleanor Crisp",
+        quote: "Renting a motorcycle turned my journey into an adventure. The freedom to explore at my own pace was unparalleled!"
+    },
+    {
+        imgSrc: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample5.jpg",
+        name: "Gordon Norman",
+        quote: "From the  booking process to the thrill of the ride, renting wheels with this company exceeded all expectations."
+    },
+    {
+        imgSrc: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample6.jpg",
+        name: "Sue Shei",
+        quote: "Discovering new paths on a rented motorcycle has been a joy. It's the perfect blend of adventure and convenience."
+    }
+];
+
   return (
-    <div className="testimonials-container">
-      <div className="testimonials">
-        <h1>Testimonials</h1>
-        <div className="testimonial">
-          <div className="testimonial-image">
-            <img src="https://via.placeholder.com/150" alt="placeholder" />
-          </div>
-          <div className="testimonial-text">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo."</p>
-            <h3>John Doe</h3>
-          </div>
+    <div className='testimonials'>
+      <h1>
+        What Our <span className='highlight'>Customers</span> Have To Say
+      </h1>
+      <p>
+        Your Partner in Excellence: Committed to Quality, Innovation, and Satisfaction.
+      </p>
+      <div className="testimonials-container">
+
+    
+        {testimonials.map((testimonial, index) => (
+          <figure key={index} class="snip1390">
+              <div className="testimonial-header">
+
+              <div>
+              <img src={testimonial.imgSrc} alt="profile-sample" class="profile" />
+              </div>
+              <div className='name-customer'>
+
+                <h2>{testimonial.name}</h2>
+                <h4>Customer</h4>
+              </div>
+              </div>
+                <blockquote>{testimonial.quote}</blockquote>
+            </figure>
+        ))}
         </div>
-        <div className="testimonial">
-          <div className="testimonial-image">
-            <img src="https://via.placeholder.com/150" alt="placeholder" />
-          </div>
-          <div className="testimonial-text">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo."</p>
-            <h3>Jane Doe</h3>
-          </div>
-        </div>
-        <div className="testimonial">
-          <div className="testimonial-image">
-            <img src="https://via.placeholder.com/150" alt="placeholder" />
-          </div>
-          <div className="testimonial-text">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo."</p>
-            <h3>John Smith</h3>
-          </div>
-        </div>
-      </div>
     </div>
-  )
+  );
 }
 
-export default Testimonials
+export default Testimonials;
