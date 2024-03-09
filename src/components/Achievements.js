@@ -3,11 +3,11 @@ import '../styles/Achievements.css'
 
 function Achievements() {
   return (
-    <div className='achievement'>
+    <div className='achievement section-content'>
       <h1>
         Our <span className='highlight'>Achievement</span>
       </h1>
-      <p>
+      <p className='subheader'>
         Our Journey Of Success Is A Testament To The Collective Efforts And
         Determination Of Our Team
       </p>

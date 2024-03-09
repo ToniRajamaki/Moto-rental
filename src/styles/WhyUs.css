@@ -1,19 +1,9 @@
 .why-us {
     text-align: center;
     position: relative;
-    padding: 6rem 0;
     background: var(--light-bg); /* Example background color */
   }
   
-  .why-us h2 {
-    margin-bottom: 1rem;
-    color: #333; /* Example text color */
-  }
-  
-  .why-us p {
-    margin-bottom: 2rem;
-    color: #666; /* Example text color */
-  }
   
   .features {
     display: flex;
@@ -22,8 +12,6 @@
     max-width: 50%; /* Adjust the width of the feature container */
     margin: auto;
   }
-  
-  
   
 .feature-content{
     display: flex;
@@ -35,7 +23,7 @@
 
   
   .feature h3 {
-    color: #333; /* Example text color */
+    color: var(--font-color); /* Example text color */
     margin-bottom: 0.5em;
     padding-bottom: 0;
   }

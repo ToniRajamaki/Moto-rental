@@ -29,11 +29,11 @@ function Testimonials() {
 ];
 
   return (
-    <div className='testimonials'>
+    <div className='testimonials section-content'>
       <h1>
         What Our <span className='highlight'>Customers</span> Have To Say
       </h1>
-      <p>
+      <p className='subheader'>
         Your Partner in Excellence: Committed to Quality, Innovation, and Satisfaction.
       </p>
       <div className="testimonials-container">

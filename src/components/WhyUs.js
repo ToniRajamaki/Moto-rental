@@ -9,11 +9,11 @@ import '../styles/WhyUs.css'
 const WhyUs = () => {
   return (
     <>
-      <div className='why-us'>
+      <div className='why-us section-content'>
         <h1>
           Why <span className='highlight'>Choose</span> Us
         </h1>
-        <p>
+        <p className='subheader'>
           We Stand As Your Trusted Partner. Our Dedication To Quality,
           Innovation, And Customer Satisfaction Sets Us Apart.
         </p>

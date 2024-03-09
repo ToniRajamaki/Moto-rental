@@ -35,7 +35,18 @@ figure.snip1390 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-radius:17px;
+  transition: all 0.3s;
 }
+
+figure.snip1390:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 rgba(63, 182, 240,0.9);
+    color:red;
+
+}
+
+
+
 figure.snip1390 *,
 figure.snip1390 *:before,
 figure.snip1390 *:after {

@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: var(--font-color);
+
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 :root {
@@ -14,7 +24,23 @@
 
 h1,h2,h3,h4,h5,h6 {
   color: var(--font-color);
-  margin-bottom: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.subheader{
+  color: var(--light-font);
+  width: 30%;
+  margin:0 auto;
+  font-size:1.1rem;
+  margin-bottom: 3em;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
 }
 
 .highlight{
@@ -27,18 +53,16 @@ p {
  
 }
 
-section{
-  background-color: rgb(206, 206, 206);
-  max-width: 60%;
-  margin: 0 auto;
-  padding: 2rem;
-  border-bottom: var(--main)0.3em solid;
+.section-content{
+  padding: 4rem 0;
 }
 
 
 .App {
   text-align: center;
 }
+
+
 
 
 

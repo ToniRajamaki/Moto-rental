@@ -1,6 +1,7 @@
 .figures-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 6em;
     flex-wrap: wrap;
     max-width: 60%;
     margin: 0 auto;
