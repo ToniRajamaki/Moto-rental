@@ -1,0 +1,87 @@
+.why-us {
+    text-align: center;
+    position: relative;
+    padding: 2rem;
+    background: var(--light-bg); /* Example background color */
+  }
+  
+  .why-us h2 {
+    margin-bottom: 1rem;
+    color: #333; /* Example text color */
+  }
+  
+  .why-us p {
+    margin-bottom: 2rem;
+    color: #666; /* Example text color */
+  }
+  
+  .features {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    max-width: 50%; /* Adjust the width of the feature container */
+    margin: auto;
+  }
+  
+  
+  
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+
+  
+  .feature h3 {
+    color: #333; /* Example text color */
+    margin-bottom: 0.5em;
+    padding-bottom: 0;
+  }
+  
+  .feature p {
+    color: #666; /* Example text color */
+  }
+  
+
+
+  .images {
+    width: 91%;
+    height: 100px;
+    position: relative;
+  }
+  
+  .absolute-img {
+    width: 30em;
+    padding: 0;
+    position: absolute;
+  }
+  .img2 {
+    bottom: 0em;
+    left: -19em;
+  }
+  .img1 {
+    
+    top: 3em;
+    right:-19em;
+  }
+  
+
+
+
+  /* Icon styles */
+  .fa, .io {
+    margin-bottom: 1rem;
+    color: #007bff; /* Example icon color */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .features {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+  }
+  

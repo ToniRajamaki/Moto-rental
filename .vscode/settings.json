@@ -9,5 +9,14 @@
         "editor.wordHighlightBackground": "#15ff0000",
         "editor.findMatchHighlightBorder": "#00ff0075",
         "editorCursor.foreground": "#ffff00"
-    }
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "hide-files.files": []
 }

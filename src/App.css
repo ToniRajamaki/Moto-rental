@@ -5,7 +5,7 @@
 }
 
 :root {
-  --main: #4db8ef;
+  --main: #3fb6f0;
   --font-color: #111111;
   --light-font: #64676a;
   --light-bg: #f6fcff;
@@ -17,11 +17,14 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 1.6rem;
 }
 
+.highlight{
+  color: var(--main);
+
+}
+
 p {
   color: var(--light-font);
-  font-size: 1.6rem;
-  line-height: 1.6;
-  margin-bottom: 1.6rem;
+ 
 }
 
 section{

@@ -1,0 +1,19 @@
+
+.feature-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.feature{
+    text-align: left;
+}
+.feature *{
+    z-index: 1;
+}
+.logo {
+    background-color: var(--main); /* Sets the background color to your CSS variable --main */
+    border-radius: 5%; /* Optional: Makes the background rounded */
+    padding: 0.6rem; 
+  }

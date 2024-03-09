@@ -103,3 +103,79 @@ body {
     margin-top: 22px;
   }
 }
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+  }
+  
+  .logo {
+    font-weight: 600;
+    margin-right: auto;
+    color: var(--font-color);
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: var(--main);
+  }
+  
+  .buttons button {
+    margin-left: 20px;
+  }
+  
+  .secondary-btn {
+    background-color: transparent;
+    border: 1px solid var(--font-color);
+    color: var(--font-color);
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .secondary-btn:hover {
+    background-color: var(--main);
+    color: white;
+  }
+  
+  .primary-btn {
+    background-color: var(--main);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .primary-btn:hover {
+    background-color: #0056b3;
+  }
+  
