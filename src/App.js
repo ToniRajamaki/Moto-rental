@@ -10,16 +10,25 @@ import Achievements from './components/Achievements';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
+const BR = () => { return <div className="section-break"><br></br> <br></br></div> }
+
   function App() {
     return (
       <div className="App">
         <Navbar />
+        <BR />
         <Hero />
+        <BR />
         <Search />
+        <BR />
         <Inventory />
+        <BR />
         <WhyUs />
+        <BR />
         <Achievements />
+        <BR />
         <Testimonials />
+        <BR />
         <Footer />
       </div>
     );

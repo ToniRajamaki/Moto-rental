@@ -1,0 +1,45 @@
+.figures-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 60%;
+    padding: 2em 0;
+    margin: 1em auto;
+    border-radius: 2em;
+
+}
+
+.figures-container .figure{
+    width: 15em;
+    height: 15em;
+    box-shadow: 0 0 10px 0 rgba(63, 182, 240,0.7);
+
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.figure:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 0 rgba(63, 182, 240,0.9);
+    color:red;
+}
+
+.figures-container h1{
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--main);
+}
+.figures-container p{
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--font-color);
+}
