@@ -22,6 +22,31 @@ body{
 
 }
 
+.btn{
+    color: var(--font-color);
+    border: 1px solid var(--font-color);
+    padding: 0.5em 2em;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1.5em;
+    border-radius: 5px;
+}
+
+.button-primary {
+  color: white;
+  -webkit-text-stroke: 0.4px var(--font-color);
+  background-color: var(--main);
+  border: 1px solid var(--main);
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button-primary:hover {
+background-color: #5cc7aa; /* MAIN */
+  border-color: var(--main-hover);
+}
 h1,h2,h3,h4,h5,h6 {
   color: var(--font-color);
   font-family: 'Roboto', sans-serif;

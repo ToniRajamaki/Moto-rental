@@ -1,13 +1,7 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/free-mode';
 import "../styles/Testimonials.css"
 // Import modules from swiper/modules
-import { Navigation, Pagination, Autoplay, FreeMode } from 'swiper/modules';
 
 function Testimonials() {
   const testimonials = [
