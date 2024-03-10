@@ -30,21 +30,24 @@ function Testimonials() {
 
   return (
     <div className='testimonials section-content'>
+      
       <h1>
+        
         What Our <span className='highlight'>Customers</span> Have To Say
       </h1>
       <p className='subheader'>
         Your Partner in Excellence: Committed to Quality, Innovation, and Satisfaction.
       </p>
+      <img src="" alt="asd"></img>
       <div className="testimonials-container">
 
     
         {testimonials.map((testimonial, index) => (
-          <figure key={index} class="snip1390">
+          <figure key={index} className="snip1390">
               <div className="testimonial-header">
 
               <div>
-              <img src={testimonial.imgSrc} alt="profile-sample" class="profile" />
+              <img src={testimonial.imgSrc} alt="profile-sample" className="profile" />
               </div>
               <div className='name-customer'>
 

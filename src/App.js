@@ -9,6 +9,7 @@ import Achievements from './components/Achievements'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import Testi from './components/Testi'
+import CallToActionCard from './components/CallToActionCard'
 
 const BR = () => {
   return (
@@ -38,6 +39,9 @@ function App() {
       <BR />
       {/* <Testi></Testi> */}
       <BR />
+    <CallToActionCard/>
+      <BR />
+      
       <Footer />
     </div>
   )
