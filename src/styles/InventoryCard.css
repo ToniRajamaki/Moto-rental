@@ -1,34 +1,48 @@
 .inventory-card {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* width: 250px; */
+    border: 1px solid #f0f0f0;
+    border-radius: 21px;
+    width: 24em;
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
   }
   
+  .card-rating{
+    font-size:1em;
+    color: var(--light-font);
+  }
   .card-image-container img {
     width: 100%;
     display: block;
   }
-  
+
+  .day-text{
+    color: var(--light-font);
+    font-weight: 400;
+    font-size: 0.7em !important;
+  }
+
   .card-details {
-    padding: 16px;
-    background-color: #fff; /* Adjust the background color as needed */
+    /* padding: 16px; */
+    /* background-color: #fff; Adjust the background color as needed */
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   
-  .card-details h3 {
-    color: #333; /* Set text color for the model name */
-    margin: 0;
-    margin-bottom: 16px;
-    font-size: 1.2em; /* Adjust font size as needed */
+  .card-details h3,.card-rating {
+    color: var(--font-color); /* Set text color for the model name */
+    text-align: left;
+    margin-left: 1.5em;
+    
   }
   
   .card-specs {
+    display: grid;
+    grid-template-columns: 2fr 2fr; /* Adjust the number of columns as needed */
+    margin: 1em 1em 1em 2em;   
+    text-align: left;
     font-size: 0.9em;
-    color: #555; /* Adjust the text color as needed */
-    margin-bottom: 16px;
+    color: var(--light-font) /* Adjust the text color as needed */
   }
   
   .card-specs span {
@@ -37,38 +51,23 @@
   }
   
   .card-specs svg {
-    color: #666; /* Adjust icon color as needed */
+    color: var(--main); /* Adjust icon color as needed */
     margin-right: 8px;
   }
   
+
+  .card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    padding: 1em;
+  }
 /* ... other styles ... */
 
 .card-price {
-    font-weight: bold;
-    font-size: 1.1em;
-    margin-bottom: 16px; /* Add margin if needed to separate from button */
-    background-color: #f7f7f7; /* Light grey background */
-    padding: 10px; /* Add padding for the price to stand out */
-    text-align: center; /* Center the price text */
-    border-top: 1px solid #ddd; /* Add a top border line similar to image */
+    font-weight: 600;
+    font-size: 1.7em;
   }
   
-  .card-action button {
-    width: calc(100% - 20px); /* Reduce width to allow for padding */
-    padding: 12px;
-    margin: 10px; /* Add margin to create space around the button */
-    background-color: white; /* Change background to white */
-    color: #007bff; /* Text color to blue */
-    border: 2px solid #007bff; /* Blue border for the button */
-    border-radius: 4px; /* Slightly round the corners of the button */
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase; /* Makes the button text uppercase */
-    transition: background-color 0.2s, color 0.2s; /* Transition for a smooth color change */
-  }
-  
-  .card-action button:hover {
-    background-color: #007bff; /* Button turns blue on hover */
-    color: white; /* Text turns white on hover */
-  }
-  
+ 

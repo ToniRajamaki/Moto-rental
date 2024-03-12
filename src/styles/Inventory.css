@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Default value */
   justify-content: center;
-  gap: 0.5em;
+  gap: 2.5em;
   align-items: center;
   margin: 0 auto;
   grid-auto-rows: auto 1fr;

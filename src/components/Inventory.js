@@ -8,7 +8,7 @@ const bikes = [
     gear: 'Manual',
     img:"https://purepng.com/public/uploads/large/purepng.com-motorcyclemotorcyclemotorbikebikecycleracing-bike-1701527509998savsa.png",
     year: 2022,
-    engine: 636, // assuming 'cc' as unit
+    engine: 600, // assuming 'cc' as unit
     mileage: 15, // assuming 'km/l' as unit
     price: 99 // assuming 'per day' as unit
   },
@@ -98,6 +98,7 @@ function Inventory() {
           <InventoryCard key={index} bike={bike} />
         ))}
       </div>
+      <button className='btn button-primary' >Browse All</button>
     </div>
   );
 }

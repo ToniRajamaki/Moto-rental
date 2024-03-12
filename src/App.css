@@ -43,6 +43,20 @@ body{
   cursor: pointer;
   text-decoration: none;
 }
+.button-secondary {
+  color: var(--main);
+  background-color: white;;
+  border: 1px solid var(--main);
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0;
+}
+.button-secondary:hover{
+  background-color: var(--main);
+  color: white;
+
+}
 
 .button-primary:hover {
 background-color: #5cc7aa; /* MAIN */
@@ -55,7 +69,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .subheader{
   color: var(--light-font);
-  width: 30%;
+  width: 30em;
   margin:0 auto;
   font-size:1.1rem;
   margin-bottom: 3em;
