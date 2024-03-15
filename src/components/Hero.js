@@ -22,7 +22,7 @@ const HeroSection = () => {
         <p className="subtitle" data-aos="fade-right" data-aos-delay="400">We Offer A Wide Range Of Rental Cars To Suit Your Needs. Whether You're Planning A Weekend Getaway, or A Business Trip.</p>
         <a href="#all-blogs" className="btn button-primary hero-button" data-aos="fade-right" data-aos-delay="800">Rent a Motorcycle</a>
       </div>
-      <img src={imageUrl} alt="Ninja Hero" className="hero-image" data-aos="fade-left" data-aos-delay="1200" />
+      <img src={imageUrl} alt="Ninja Hero" className="hero-image" data-aos="fade-left" data-aos-delay="900" />
     </section>
     <div class="custom-shape-divider-bottom-1710071034">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

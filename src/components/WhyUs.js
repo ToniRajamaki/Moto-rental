@@ -46,13 +46,17 @@ const WhyUs = () => {
         {/* <div className="images"> */}
 
         <img
-          className='absolute-img img1'
-          src='https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/bike-tail.png?raw=true'
+          className='absolute-img img2 '
+          data-aos='fade-down-right'
+          data-aos-delay='1000'
+          src='https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/WhyUs-left.png?raw=true'
           alt='Orange Supercar'
         />
         <img
-          className='absolute-img img2'
-          src='https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/bike-head.png?raw=true'
+          className='absolute-img img1'
+          data-aos='fade-up-left'
+          data-aos-delay='1500'
+          src='https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/WhyUs-right.png?raw=true'
           alt='Orange Supercar'
         />
 

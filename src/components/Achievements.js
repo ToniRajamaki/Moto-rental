@@ -18,11 +18,11 @@ function Achievements() {
           <p>Active Member</p>
         </div>
         <div className='figure'>
-          <h1>2500+</h1>
-          <p>Car Model</p>
+          <h1>100+</h1>
+          <p>Bike Models</p>
         </div>
         <div className='figure'>
-          <h1>10K+</h1>
+          <h1>20000+</h1>
           <p>Positive Rating</p>
         </div>
       </div>

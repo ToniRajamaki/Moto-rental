@@ -4,7 +4,10 @@ import '../styles/InventoryCard.css';
 
 const InventoryCard = ({ bike }) => {
   return (
-    <div className="inventory-card">
+    <div className="inventory-card"
+    data-aos="fade-up"
+    data-aos-duration="300"
+    data-aos-delay="300">
       <div className="card-image-container">
         <img src={bike.img} alt={`Image of ${bike.model}`} />
       </div>
