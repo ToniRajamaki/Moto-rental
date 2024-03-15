@@ -40,9 +40,18 @@ const bikes = [
     price: 109 // assuming 'per day' as unit
   },
   {
+    model: 'Suzuki SV650X',
+    gear: 'Manual',
+    img:"https://raw.githubusercontent.com/ToniRajamaki/moto-rental/main/public/images/motocross1.webp",
+    year: 2020,
+    engine: 650, // assuming 'cc' as unit
+    mileage: 25000, // assuming 'km/l' as unit
+    price: 109 // assuming 'per day' as unit
+  },
+  {
     model: 'Harley-Davidson Iron 883',
     gear: 'Manual',
-    img:"https://raw.githubusercontent.com/ToniRajamaki/moto-rental/main/public/images/harley.webp",
+    img:"https://raw.githubusercontent.com/ToniRajamaki/moto-rental/main/public/images/bmw2.webp",
     year: 2009,
     engine: 450, // assuming 'cc' as unit
     mileage: 50000, // assuming 'km/l' as unit
@@ -76,15 +85,7 @@ const bikes = [
     mileage: 10000, // assuming 'km/l' as unit
     price: 49 // assuming 'per day' as unit
   },
-  {
-    model: 'Suzuki SV650X',
-    gear: 'Manual',
-    img:"https://raw.githubusercontent.com/ToniRajamaki/moto-rental/main/public/images/suzuki.webp",
-    year: 2020,
-    engine: 650, // assuming 'cc' as unit
-    mileage: 25000, // assuming 'km/l' as unit
-    price: 109 // assuming 'per day' as unit
-  },
+ 
  
 ];
 
