@@ -12,7 +12,7 @@ function CallToActionCard() {
         </div>
 
       <img className="car-img" src="https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/call-to-action-image.png?raw=true" alt="asd" />
-      <img className="car-img2" src="https://static.vecteezy.com/system/resources/thumbnails/025/364/754/small/white-sun-rays-with-beams-and-glare-isolated-on-transparent-background-lens-flare-light-effect-png.png" alt="asd" />
+      <img className="car-img2" src="https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/cool-effect.png?raw=true" alt="asd" />
       </div>
     </div>
   )

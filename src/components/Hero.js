@@ -10,7 +10,7 @@ const HeroSection = () => {
     });
   }, []);
 
-  const imageUrl = "https://i.pinimg.com/originals/77/a7/a0/77a7a033354ca418b2532412a884a4f6.png";
+  const imageUrl = "https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/bmw.png?raw=true";
 
   return (
     <div className=''>

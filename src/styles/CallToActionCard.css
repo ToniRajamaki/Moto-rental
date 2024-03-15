@@ -56,8 +56,9 @@
     width: 30em;
     padding: 0;
     position: absolute;
-    top: 1em;
+    top: 0em;
     right: -15em;
+    z-index: 1;
     
 }
 
@@ -68,10 +69,11 @@
   }
   
 .car-img2{
-    width: 14em;
+    width: 22em;
     padding: 0;
     position: absolute;
-    top: -5em;
-    right: -6em;
+    top: 0em;
+    right: -4em;
+    opacity: 0.5;
 }
 
