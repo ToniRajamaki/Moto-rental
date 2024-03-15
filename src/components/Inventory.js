@@ -70,7 +70,7 @@ const bikes = [
 {
   model: 'Yamaha MT-07',
   gear: 'Manual',
-  img:"https://raw.githubusercontent.com/ToniRajamaki/moto-rental/main/public/images/yamaha.webp",
+  img:"https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/hero-img2.png?raw=true",
   year: 2018,
   engine: 500, // assuming 'cc' as unit
   mileage: 19000, // assuming 'km/l' as unit

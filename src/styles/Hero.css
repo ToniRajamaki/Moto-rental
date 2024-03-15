@@ -9,6 +9,11 @@
  
 }
 
+.hero-section img{
+  width: 17em;
+
+}
+
 .custom-shape-divider-bottom-1710071034 {
   position: absolute;
   bottom: 0;
@@ -57,7 +62,7 @@
 
 .hero-image {
   flex: 1; /* Allows the image to take up equal space */
-  max-width: 50%; /* Limits the image width to half of the container */
+  max-width: 42%; /* Limits the image width to half of the container */
   height: auto; /* Maintain aspect ratio */
 }
 
