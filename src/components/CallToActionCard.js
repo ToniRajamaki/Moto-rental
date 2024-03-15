@@ -11,8 +11,8 @@ function CallToActionCard() {
           <button className='contact-btn'>Contact Us</button>
         </div>
 
-      <img className="car-img" src="https://www.freepnglogos.com/uploads/bmw-png/technology-the-year-bmw-project-automobile-9.png" alt="asd" />
-      <img className="car-img2" src="https://static.vecteezy.com/system/resources/thumbnails/021/625/120/small/white-circle-free-png.png" alt="asd" />
+      <img className="car-img" src="https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/call-to-action-image.png?raw=true" alt="asd" />
+      <img className="car-img2" src="https://static.vecteezy.com/system/resources/thumbnails/025/364/754/small/white-sun-rays-with-beams-and-glare-isolated-on-transparent-background-lens-flare-light-effect-png.png" alt="asd" />
       </div>
     </div>
   )

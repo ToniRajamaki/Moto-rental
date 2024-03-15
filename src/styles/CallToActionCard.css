@@ -8,7 +8,7 @@
     background: linear-gradient(245.59deg, hsl(195, 32%, 44%) 0%, hsl(200, 33%, 33%) 28.53%, hsl(201, 50%, 15%) 75.52%);
     background: linear-gradient(245.59deg, hsl(195, 85%, 70%) 0%,	hsl(200, 86%, 59%) 28.53%, hsl(201, 100%, 45%) 75.52%);
     /* background: var(--main); */
-    max-width: 70%;
+    max-width: 59%;
     border-radius: 20px;
     margin: 0 auto;
     position: relative;
@@ -32,6 +32,13 @@
 .card-info{
     text-align: left;
 }
+
+.card-info p{
+    position: relative;
+    z-index: 11;
+
+}
+
 .contact-btn{
     background-color: white;
     color: var(--font-color);
@@ -61,10 +68,10 @@
   }
   
 .car-img2{
-    width: 22em;
+    width: 14em;
     padding: 0;
     position: absolute;
-    bottom: -7em;
-    left: 1em;
+    top: -5em;
+    right: -6em;
 }
 
