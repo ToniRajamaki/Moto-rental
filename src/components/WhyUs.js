@@ -47,12 +47,12 @@ const WhyUs = () => {
 
         <img
           className='absolute-img img1'
-          src='https://cdn.pixabay.com/photo/2015/10/01/17/17/car-967387_1280.png'
+          src='https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/bike-tail.png?raw=true'
           alt='Orange Supercar'
         />
         <img
           className='absolute-img img2'
-          src='https://cdn.pixabay.com/photo/2015/10/01/17/17/car-967387_1280.png'
+          src='https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/bike-head.png?raw=true'
           alt='Orange Supercar'
         />
 

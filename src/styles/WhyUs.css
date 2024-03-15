@@ -101,13 +101,15 @@
     position: absolute;
   }
   .img2 {
+    width: 15em;
     bottom: 0em;
-    left: -19em;
+    left: 0em;
   }
   .img1 {
+    width: 15em;
     
     top: 3em;
-    right:-19em;
+    right:0em;
   }
   
 
