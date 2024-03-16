@@ -36,9 +36,10 @@ body{
 
 .button-primary {
   color: white;
+  
   -webkit-text-stroke: 0.4px var(--font-color);
   background-color: var(--main);
-  border: 1px solid var(--main);
+  border: 1px solid white;
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
@@ -59,7 +60,7 @@ body{
 }
 
 .button-primary:hover {
-background-color: #5cc7aa; /* MAIN */
+background-color: #3f97c4; /* MAIN */
   border-color: var(--main-hover);
 }
 h1,h2,h3,h4,h5,h6 {
@@ -85,6 +86,8 @@ h1 {
 
 .highlight{
   color: var(--main);
+  font-weight: 900;
+  -webkit-text-stroke: 0.6px white;
 
 }
 

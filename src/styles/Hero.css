@@ -9,6 +9,32 @@
  
 }
 
+.hero-cover1{
+    background-image: url('https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/d07efe7b74617d6022e95cc974431b12d5c521f5/blob-scene-haikei.svg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Ensures the background covers the whole element */
+    background-position: center; /* Centers the background image */
+    height: 100%; /* Adjust the height as needed, here it's set to full viewport height */
+    width: 100%; /* Ensure it spans the full width */
+    position: absolute;
+    top:0;
+    opacity: 15%;
+    z-index: -1;
+}
+.hero-cover2{
+    background-image: url('https://raw.githubusercontent.com/ToniRajamaki/ToniRajamaki/9bb138f0e148b4a907997e9f03a2154ab0e5e2c2/stacked-waves-haikei.svg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Ensures the background covers the whole element */
+    background-position: center; /* Centers the background image */
+    height: 100%; /* Adjust the height as needed, here it's set to full viewport height */
+    width: 100%; /* Ensure it spans the full width */
+    position: absolute;
+    top:0;
+    z-index: -2;
+    margin-top: 11%;
+
+}
+
 .hero-section img{
   width: 17em;
 

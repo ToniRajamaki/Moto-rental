@@ -9,7 +9,21 @@
 .inventory{
     max-width: 65%;
     margin: 0 auto;
+   
+    
 }
+.cover {
+  background-image: url('https://raw.githubusercontent.com/ToniRajamaki/moto-rental/9873ab7f70fdb4381b8fb045b8470ff08dfe156a/public/images/polygon-scatter-haikei.svg');
+  background-size: contain;
+  background-repeat: no-repeat; /* Ensures the background covers the whole element */
+  background-position: center; /* Centers the background image */
+  height: 100em; /* Adjust the height as needed, here it's set to full viewport height */
+  width: 100%; /* Ensure it spans the full width */
+  position: absolute;
+  opacity: 15%;
+  transform: rotate(180deg);
+}
+
 
 .inventory-container {
   max-width: 52em;
