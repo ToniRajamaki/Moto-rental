@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav >
       <a href="/" className='nav-title'>
-        <img className='nav-logo'  src="https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/moto-rental-logo.png?raw=true" alt="" />Moto Rental
+        <img className='nav-logo'  src="https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/Logo.png?raw=true" alt="" />
       </a>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
