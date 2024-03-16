@@ -1,101 +1,42 @@
-// Navbar.js
-import React, { useState } from 'react'
-import '../styles/Navbar.css'
+import React from 'react';
+import '../styles/Navbar.css';
 
 const Navbar = () => {
-  const [showNavbar, setShowNavbar] = useState(false)
-
-  const handleShowNavbar = () => {
-    setShowNavbar(!showNavbar)
-  }
-
   return (
-    <nav className='navbar'>
-      <div className='container'>
-        <div className='logo'>
-          <Logo />
-        </div>
-        <div className='menu-icon' onClick={handleShowNavbar}>
-          <Hamburger />
-        </div>
-        <div className={`nav-elements ${showNavbar && 'active'}`}>
-          <ul className='nav-links'>
-            <li>
-              <a href='#'>Home</a>
+    <header className="header" id="#home">
+      <nav className="nav container">
+        <div className="nav__menu">
+          <ul className="nav__list">
+            <li className="nav__item">
+              <a href="#home">
+                <img className="nav__logo" src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/logo.png?raw=true" alt="Logo" />
+              </a>
             </li>
-            <li>
-              <a href='#'>Rent Motorcycle</a>
+            <li className="nav__item">
+              <a href="#home" className="nav__link">Home</a>
             </li>
-            <li>
-              <a href='#'>Business Consulting</a>
+            <li className="nav__item">
+              <a href="#skills" className="nav__link">About</a>
             </li>
-            <li>
-              <a href='#'>About Us</a>
+            <li className="nav__item">
+              <a href="#education" className="nav__link">Vehicles</a>
             </li>
-            <li>
-              <a href='#'>Blog</a>
+            <li className="nav__item">
+              <a href="#qualification" className="nav__link">Testimonials</a>
             </li>
-            <li>
-              <button className='secondary-btn'>Login</button>
+            <li className="nav__item">
+              <a href="#portfolio" className="nav__link">Our Team</a>
             </li>
-            <li>
-              <button className='primary-btn'>Sign Up</button>
+            <li className="nav__item">
+              <a href="#contact" className="nav__link">Contact</a>
             </li>
           </ul>
+          {/* Removed dynamic JavaScript behavior for toggling menu and class changes */}
         </div>
-      </div>
-    </nav>
-  )
-}
+        {/* Removed the toggle button functionality as it requires JavaScript */}
+      </nav>
+    </header>
+  );
+};
 
-const Hamburger = () => (
-  <svg
-    xmlns='http://www.w3.org/2000/svg'
-    width='52'
-    height='24'
-    viewBox='0 0 52 24'>
-    <g id='Group_9' data-name='Group 9' transform='translate(-294 -47)'>
-      <rect
-        id='Rectangle_3'
-        data-name='Rectangle 3'
-        width='42'
-        height='4'
-        rx='2'
-        transform='translate(304 47)'
-        fill='#574c4c'
-      />
-      <rect
-        id='Rectangle_5'
-        data-name='Rectangle 5'
-        width='42'
-        height='4'
-        rx='2'
-        transform='translate(304 67)'
-        fill='#574c4c'
-      />
-      <rect
-        id='Rectangle_4'
-        data-name='Rectangle 4'
-        width='52'
-        height='4'
-        rx='2'
-        transform='translate(294 57)'
-        fill='#574c4c'
-      />
-    </g>
-  </svg>
-)
-const Logo = () => (
-  <svg
-    xmlns='http://www.w3.org/2000/svg'
-    width='52'
-    height='24'
-    viewBox='0 0 52 24'>
-    <text>
-    
-        Logo
-    </text>
-  </svg>
-)
-
-export default Navbar
+export default Navbar;
