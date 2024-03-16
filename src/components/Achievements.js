@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Achievements.css'
+import AnimatedNumbers from 'react-animated-numbers'
 
 function Achievements() {
   return (
@@ -13,16 +14,60 @@ function Achievements() {
       </p>
 
       <div className='figures-container'>
-        <div className='figure'>
-          <h1>8000+</h1>
+        <div className='figure'
+        >
+          <AnimatedNumbers
+            includeComma
+            className='after-content'
+            transitions={(index) => ({
+              type: 'spring',
+              duration: 1 + 0.4,
+            })}
+            fontStyle={{
+              fontSize: '3em',
+              fontWeight: '500',
+              color: 'var(--main)',
+            }}
+            animateToNumber={8000}
+          />
+
           <p>Active Member</p>
         </div>
         <div className='figure'>
-          <h1>100+</h1>
+          <AnimatedNumbers
+            includeComma
+            className='after-content'
+            transitions={(index) => ({
+              type: 'spring',
+              // stiffness:200,
+              duration: 2 + 0.4,
+            })}
+            fontStyle={{
+              fontSize: '3em',
+              fontWeight: '500',
+              color: 'var(--main)',
+            }}
+            animateToNumber={100}
+          />
           <p>Bike Models</p>
         </div>
+
         <div className='figure'>
-          <h1>20000+</h1>
+          <AnimatedNumbers
+            includeComma
+            className='after-content'
+            transitions={(index) => ({
+              type: 'spring',
+              // stiffness:200,
+              duration: 3 + 0.4,
+            })}
+            fontStyle={{
+              fontSize: '3em',
+              fontWeight: '500',
+              color: 'var(--main)',
+            }}
+            animateToNumber={20000}
+          />
           <p>Positive Rating</p>
         </div>
       </div>
