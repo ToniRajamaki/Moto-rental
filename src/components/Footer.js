@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import '../styles/Footer.css'
 
 let logo2 =
-  'https://marketplace.canva.com/EAFauoQSZtY/1/0/1600w/canva-brown-mascot-lion-free-logo-qJptouniZ0A.jpg'
+  'https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/Group%201.png?raw=true'
 
 function Footer() {
   return (

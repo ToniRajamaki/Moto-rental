@@ -46,7 +46,10 @@ padding: 1em;
   }
   
   .logo-section img {
-    width: 100px; /* Adjust based on your logo size */
+    margin: 1rem;
+    width: 16.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   
   .links-section ul {

@@ -7,16 +7,29 @@ nav {
   background-color: rgba(0, 0, 0, 0);
   color: var(--font-color);
   top: 0;
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .nav-logo {
   margin: 1rem;
-  width: 16.5rem;
+  width: 15.5rem;
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
+.nav-buttons{
+  align-items: center;
+  display: flex;
+  font-family: Rubik, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.nav-buttons *{
+  margin: 1em;
+}
+
 .nav-title {
   display: flex;
   align-items: center;
@@ -70,7 +83,7 @@ nav .menu span {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 1200px) {
   nav .menu {
       display: flex;
   }
@@ -89,6 +102,9 @@ nav .menu span {
       flex-direction: column;
       width: 100%;
       margin-bottom: 0.25rem;
+  }
+  .nav-buttons{
+    display:none;
   }
 
   nav ul.open {
