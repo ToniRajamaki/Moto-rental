@@ -1,41 +1,31 @@
-import React from 'react';
 import '../styles/Navbar.css';
+import React, { useState } from "react";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <header className="header" id="#home">
-      <nav className="nav container">
-        <div className="nav__menu">
-          <ul className="nav__list">
-            <li className="nav__item">
-              <a href="#home">
-                <img className="nav__logo" src="https://github.com/ToniRajamaki/folio2/blob/main/public/assets/toni/logo.png?raw=true" alt="Logo" />
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#home" className="nav__link">Home</a>
-            </li>
-            <li className="nav__item">
-              <a href="#skills" className="nav__link">About</a>
-            </li>
-            <li className="nav__item">
-              <a href="#education" className="nav__link">Vehicles</a>
-            </li>
-            <li className="nav__item">
-              <a href="#qualification" className="nav__link">Testimonials</a>
-            </li>
-            <li className="nav__item">
-              <a href="#portfolio" className="nav__link">Our Team</a>
-            </li>
-            <li className="nav__item">
-              <a href="#contact" className="nav__link">Contact</a>
-            </li>
-          </ul>
-          {/* Removed dynamic JavaScript behavior for toggling menu and class changes */}
-        </div>
-        {/* Removed the toggle button functionality as it requires JavaScript */}
-      </nav>
-    </header>
+    <nav >
+      <a href="/">
+        <img className='nav-logo'  src="https://raw.githubusercontent.com/ToniRajamaki/moto-rental/26ac057dbac091c9de1d1c2c0b374114d740da1d/public/images/low-poly-grid-haikei.svg" alt="" />
+      </a>
+      <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={menuOpen ? "open" : ""}>
+        <li>
+          <a className='nav-item' href="/about">About</a>
+        </li>
+        <li>
+          <a  className='nav-item'href="/services">Services</a>
+        </li>
+        <li>
+          <a  className='nav-item'href="/contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 
