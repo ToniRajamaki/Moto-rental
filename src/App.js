@@ -24,7 +24,6 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
-      <BR />
       <Hero />
       <BR />
       <Search />

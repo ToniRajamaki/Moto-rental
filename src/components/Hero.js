@@ -16,7 +16,7 @@ const HeroSection = () => {
 
   return (
     <>
-    {/* <div className="hero-cover1"></div> */}
+    <div className="hero-cover1"></div>
     <div className="hero-cover2"></div>
     <div>
     <section className="hero-section section-content">

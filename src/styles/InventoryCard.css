@@ -5,6 +5,8 @@
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
+   background-color: #fff; 
+
   }
   
   .card-rating{
@@ -24,7 +26,6 @@
 
   .card-details {
     /* padding: 16px; */
-    /* background-color: #fff; Adjust the background color as needed */
     padding-bottom: 0;
     margin-bottom: 0;
   }

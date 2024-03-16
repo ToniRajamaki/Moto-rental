@@ -5,7 +5,10 @@ import '../styles/Search.css' // Make sure to create this CSS file
 
 function BookingForm() {
   return (
-    <div className='booking-form-container'>
+    <div className='booking-form-container'
+    data-aos-delay="1000"
+    data-aos="fade-up"
+    >
 
       <div className="pair">
 
