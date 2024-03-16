@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     padding: 4em 8em;
-    background: linear-gradient(245.59deg, hsl(195, 32%, 44%) 0%, hsl(200, 33%, 33%) 28.53%, hsl(201, 50%, 15%) 75.52%);
     background: linear-gradient(245.59deg, hsl(195, 85%, 70%) 0%,	hsl(200, 86%, 59%) 28.53%, hsl(201, 100%, 45%) 75.52%);
     /* background: var(--main); */
     max-width: 59%;

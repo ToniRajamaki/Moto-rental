@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--main);
+    background: linear-gradient(245.59deg, hsl(195, 85%, 70%) 0%,	hsl(200, 86%, 59%) 28.53%, hsl(201, 100%, 45%) 75.52%);
     color: #fff;
     padding: 20px 0;
     text-align: center;

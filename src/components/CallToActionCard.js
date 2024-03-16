@@ -8,7 +8,7 @@ function CallToActionCard() {
         <div className='card-info'>
           <h2>Ready to get started?</h2>
           <p>We Stand As Your Trusted Partner. our Dedication To Quality, Innovation, And Customer Satisfaction Sets Us Apart.</p>
-          <button className='contact-btn'>Contact Us</button>
+          <button className=' btn button-secondary'>Contact Us</button>
         </div>
 
       <img className="car-img" src="https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/call-to-action-image.png?raw=true" alt="asd" />
