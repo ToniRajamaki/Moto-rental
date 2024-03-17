@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Ninja-moto-rental/static/css/main.2f214663.css",
-    "main.js": "/Ninja-moto-rental/static/js/main.627cbc90.js",
+    "main.css": "/Ninja-moto-rental/static/css/main.29baee9c.css",
+    "main.js": "/Ninja-moto-rental/static/js/main.68ccdac5.js",
     "static/js/453.69ed1ab4.chunk.js": "/Ninja-moto-rental/static/js/453.69ed1ab4.chunk.js",
     "index.html": "/Ninja-moto-rental/index.html",
-    "main.2f214663.css.map": "/Ninja-moto-rental/static/css/main.2f214663.css.map",
-    "main.627cbc90.js.map": "/Ninja-moto-rental/static/js/main.627cbc90.js.map",
+    "main.29baee9c.css.map": "/Ninja-moto-rental/static/css/main.29baee9c.css.map",
+    "main.68ccdac5.js.map": "/Ninja-moto-rental/static/js/main.68ccdac5.js.map",
     "453.69ed1ab4.chunk.js.map": "/Ninja-moto-rental/static/js/453.69ed1ab4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f214663.css",
-    "static/js/main.627cbc90.js"
+    "static/css/main.29baee9c.css",
+    "static/js/main.68ccdac5.js"
   ]
 }
