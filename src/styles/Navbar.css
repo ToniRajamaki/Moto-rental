@@ -53,6 +53,8 @@ nav ul li {
   padding: 0.5rem;
   margin: 0 0.5rem;
   border-radius: 0.5rem;
+  color: var(--font-color);
+  font-weight: 500;
 }
 
 nav ul li a:not(.active):hover {
