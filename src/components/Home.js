@@ -1,4 +1,4 @@
-import './App.css'
+import "../App.css"
 import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -25,7 +25,7 @@ const BR = () => {
 
 const baseURL = "/moto-rental";
 
-function App() {
+function Home() {
   return (
     <div className='App'>
       <SpecialOffer />
@@ -52,4 +52,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
