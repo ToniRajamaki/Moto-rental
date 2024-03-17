@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import Testi from './components/Testi'
 import CallToActionCard from './components/CallToActionCard'
 import SellingSection from "./components/SellingSection"
+import SpecialOffer from './components/SpecialOffer'
 
 const BR = () => {
   return (
@@ -24,6 +25,7 @@ const BR = () => {
 function App() {
   return (
     <div className='App'>
+      <SpecialOffer />
       <Navbar />
       <Hero />
       <BR />
@@ -38,8 +40,6 @@ function App() {
       <SellingSection />
       <BR />
       <Testimonials />
-      <BR />
-      {/* <Testi></Testi> */}
       <BR />
     <CallToActionCard/>
       <BR />

@@ -12,7 +12,7 @@ const InventoryCard = ({ bike }) => {
         <h3>{bike.model}</h3>
         <div className='card-rating'>
           <span>{'⭐️'.repeat(5)}</span>
-          <span> ({Math.floor(Math.random() * 99) + 1}) Reviews</span>
+          <span className='text-reviews'> ({Math.floor(Math.random() * 99) + 1}) Reviews</span>
         </div>
         <div className='card-specs'>
           <span>

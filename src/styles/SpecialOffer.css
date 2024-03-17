@@ -1,0 +1,16 @@
+.special-offer{
+    top: 0;
+    height: 2.5em;
+    text-align: center;
+    background-color: #072b48;
+    width: 100%;
+}
+
+.special-offer p{
+    color:white;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    padding-top: 0.5em;
+
+}

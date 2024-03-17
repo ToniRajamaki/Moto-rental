@@ -14,8 +14,8 @@ const WhyUs = () => {
           Why <span className='highlight'>Choose</span> Us
         </h1>
         <p className='subheader'>
-          We Stand As Your Trusted Partner. Our Dedication To Quality,
-          Innovation, And Customer Satisfaction Sets Us Apart.
+          We Stand As Your Partner. Our Dedication To Innovation, And Customer
+          Satisfaction Sets Us Apart.
         </p>
         <div className='features'>
           <div className='feature'>

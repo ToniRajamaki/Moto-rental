@@ -8,7 +8,15 @@
    background-color: #fff; 
 
   }
-  
+
+  .inventory-card:hover{
+    box-shadow: 0 0 10px 0 rgba(63, 182, 240,0.9);
+  }
+.text-reviews:hover{
+  cursor: pointer;
+  color:var(--main);
+}
+
   .card-rating{
     font-size:1em;
     color: var(--light-font);

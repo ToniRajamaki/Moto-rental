@@ -6,7 +6,6 @@
     gap: 0.5em;
     margin: 0;
     padding: 0;
-    -webkit-text-stroke: 0.025em var(--font-color);
     bottom: 0;
     position: absolute;
     width: 100%;
@@ -45,5 +44,7 @@
     /* -webkit-text-stroke: 0.025em white; */
     font-weight: 800;
     padding: 0;
+    -webkit-text-stroke: 0.025em var(--font-color);
+
     margin: 0;
 }
