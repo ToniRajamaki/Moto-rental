@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import Testi from './components/Testi'
 import CallToActionCard from './components/CallToActionCard'
+import SellingSection from "./components/SellingSection"
 
 const BR = () => {
   return (
@@ -29,6 +30,8 @@ function App() {
       <Search />
       <BR />
       <Inventory />
+      <BR />
+      <SellingSection />
       <BR />
       <WhyUs />
       <BR />

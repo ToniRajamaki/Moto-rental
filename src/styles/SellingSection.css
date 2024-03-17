@@ -1,0 +1,24 @@
+.slogan-text{
+    font-size: 5.5em;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1em;
+    text-align: center;
+    position: absolute;
+
+}
+
+.bg-cover{
+    background-image: url('https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/road-bg.png?raw=true');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1em;
+}
