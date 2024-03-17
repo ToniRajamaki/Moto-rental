@@ -31,11 +31,11 @@ function App() {
       <BR />
       <Inventory />
       <BR />
-      <SellingSection />
-      <BR />
       <WhyUs />
       <BR />
       <Achievements />
+      <BR />
+      <SellingSection />
       <BR />
       <Testimonials />
       <BR />
