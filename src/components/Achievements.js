@@ -70,7 +70,7 @@ function Achievements() {
           />
           <p>Positive Rating</p>
         </div>
-      </div>
+      </div>napm star
     </div>
   )
 }

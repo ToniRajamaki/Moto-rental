@@ -8,10 +8,10 @@ import WhyUs from '../components/WhyUs'
 import Achievements from '../components/Achievements'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
-import Testi from '../components/Testi'
 import CallToActionCard from '../components/CallToActionCard'
 import SellingSection from "../components/SellingSection"
 import SpecialOffer from '../components/SpecialOffer'
+import ContactSection from "./ContactDivider"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const BR = () => {
@@ -32,7 +32,8 @@ function Home() {
       <Navbar />
       <Hero />
       <BR />
-      <Search />
+      <BR />
+      {/* <Search /> */}
       <BR />
       <Inventory />
       <BR />
@@ -43,6 +44,8 @@ function Home() {
       <SellingSection />
       <BR />
       <Testimonials />
+      <BR />
+      <ContactSection />
       <BR />
     <CallToActionCard/>
       <BR />

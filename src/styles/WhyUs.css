@@ -2,6 +2,7 @@
     text-align: center;
     position: relative;
     background: var(--light-bg); /* Example background color */
+    max-width: 100vw !important;
   }
   
   
