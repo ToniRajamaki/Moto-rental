@@ -11,13 +11,13 @@ const ContactForm = () => {
         <p>A multifaceted professional skilled in multiple fields of research, development as well as a learning specialist. Over 15 years of experience.</p>
         <br />
         <div className="info">
-          <FaPhone /><span>(123) 456-7869</span>
+         <span> <FaPhone /> (123) 456-7869</span>
         </div>
         <div className="info">
-          <FaEnvelope /><span>bikerental@motorental.com</span>
+          <span><FaEnvelope /> bikerental@motorental.com</span>
         </div>
         <div className="info">
-          <FaMapMarkerAlt /><span>Belgrade, Serbia</span>
+          <span> <FaMapMarkerAlt />Belgrade, Serbia</span>
         </div>
       </div>
       <form className="contact-form">
