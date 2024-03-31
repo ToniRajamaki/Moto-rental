@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/moto-rental/static/css/main.29baee9c.css",
-    "main.js": "/moto-rental/static/js/main.e8c1ab29.js",
+    "main.css": "/moto-rental/static/css/main.7be782ee.css",
+    "main.js": "/moto-rental/static/js/main.66852848.js",
     "static/js/453.69ed1ab4.chunk.js": "/moto-rental/static/js/453.69ed1ab4.chunk.js",
+    "static/media/blueroad.png": "/moto-rental/static/media/blueroad.5c3ec122afaf8bdce347.png",
     "index.html": "/moto-rental/index.html",
-    "main.29baee9c.css.map": "/moto-rental/static/css/main.29baee9c.css.map",
-    "main.e8c1ab29.js.map": "/moto-rental/static/js/main.e8c1ab29.js.map",
+    "main.7be782ee.css.map": "/moto-rental/static/css/main.7be782ee.css.map",
+    "main.66852848.js.map": "/moto-rental/static/js/main.66852848.js.map",
     "453.69ed1ab4.chunk.js.map": "/moto-rental/static/js/453.69ed1ab4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29baee9c.css",
-    "static/js/main.e8c1ab29.js"
+    "static/css/main.7be782ee.css",
+    "static/js/main.66852848.js"
   ]
 }
