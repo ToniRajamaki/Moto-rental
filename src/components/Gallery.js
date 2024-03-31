@@ -24,7 +24,7 @@ const Gallery = () => {
         </p>
     <div className="grid-container">
       {persons.map((person, index) => (
-          <div className="grid-item" key={index}>
+          <div className="gallery-grid-item" key={index}>
           <img src={person.image} alt={person.name} />
           <div className="info">
             <h3>{person.name}</h3>

@@ -8,8 +8,8 @@
     background-color: white;
     border-radius: 8px;
     box-shadow: rgba(63, 182, 240, 0.3) 0px 4px 12px;
-    max-width: 65%;
-    margin: 0 auto;
+    margin: 4rem auto;
+    max-width: 85rem;
   }
   
   .input-field {

@@ -15,11 +15,10 @@ function BookingForm() {
   };
 
   return (
-    <div className='booking-form-container' data-aos-delay="1000" data-aos="fade-up">
+    <div className='booking-form-container'>
       <div className='input-field'>
         <div>
-          <FaMapMarkerAlt className='icon' />
-          <label htmlFor='pickupLocation' className='input-label'>Pick up location</label>
+          <label htmlFor='pickupLocation' className='input-label'> <FaMapMarkerAlt className='icon' />Pick up location</label>
         </div>
         <select id='pickupLocation'>
           {cities.map(city => (
@@ -30,8 +29,7 @@ function BookingForm() {
 
       <div className='input-field'>
         <div>
-          <FaMapMarkerAlt className='icon' />
-          <label htmlFor='returnLocation' className='input-label'>Return location</label>
+          <label htmlFor='returnLocation' className='input-label'><FaMapMarkerAlt className='icon' /> Return location</label>
         </div>
         <select id='returnLocation'>
           <option value="Same place as pickup">Same place as pickup</option>
@@ -43,16 +41,14 @@ function BookingForm() {
 
       <div className='input-field'>
         <div>
-          <FaCalendarDay className='icon' />
-          <label htmlFor='pickupDate' className='input-label'>Pick up Date</label>
+          <label htmlFor='pickupDate' className='input-label'> <FaCalendarDay className='icon' />Pick up Date</label>
         </div>
         <input id='pickupDate' type='date' value={getTomorrowDate()} />
       </div>
 
       <div className='input-field'>
         <div>
-          <FaCalendarDay className='icon' />
-          <label htmlFor='returnDate' className='input-label'>Return Date</label>
+          <label htmlFor='returnDate' className='input-label'> <FaCalendarDay className='icon' />Return Date</label>
         </div>
         <input id='returnDate' type='date' />
       </div>

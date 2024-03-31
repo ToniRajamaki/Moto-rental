@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Inventory.css'
 import InventoryCard from './InventoryCard'
+import Search from '../components/Search'
 
 const bikes = [
   {
@@ -99,6 +100,7 @@ function Inventory() {
         Explore Our Vast Inventory Of Reliable Bikes For Different Needs And
         Find Your Perfect Set Of Wheels.
       </p>
+    <Search />
       <div className='inventory-container'>
         {bikes.map((bike, index) => (
           <InventoryCard key={index} bike={bike} />

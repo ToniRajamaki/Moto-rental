@@ -105,6 +105,10 @@ p {
   text-align: center;
 }
 
+.flex-pair{
+  display: flex;
+  gap: 0.6rem;
+}
 
 
 

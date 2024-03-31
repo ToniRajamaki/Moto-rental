@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom' // Imp
 import PageVehicles from './components/PageVehicles'
 import PageTestimonials from './components/PageTestimonials'
 import PageOurTeam from './components/PageOurTeam'
+import PageContact from './components/PageContact'
 
 const baseURL = '/moto-rental'
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/vehicles' element={<PageVehicles />} />
           <Route path='/testimonials' element={<PageTestimonials />} />
           <Route path='/our-team' element={<PageOurTeam />} />
+          <Route path='/contact' element={<PageContact />} />
         </Routes>
       </div>
     </Router>
