@@ -1,12 +1,11 @@
-import "../App.css"
+import '../App.css'
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Search from '../components/Search'
-import Inventory from '../components/Inventory'
+import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
 import SpecialOffer from '../components/SpecialOffer'
-import ContactSection from "./ContactDivider"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ContactSection from './ContactDivider'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 const BR = () => {
   return (
@@ -17,17 +16,16 @@ const BR = () => {
   )
 }
 
-const baseURL = "/moto-rental";
+const baseURL = '/moto-rental'
 
-function PageVehicles() {
+function PageTestimonials() {
   return (
     <div className='App'>
       <SpecialOffer />
       <Navbar />
       <BR />
-      <Search />
+      <Testimonials></Testimonials>
       <BR />
-      <Inventory />
       <BR />
       <ContactSection />
       <BR />
@@ -36,4 +34,4 @@ function PageVehicles() {
   )
 }
 
-export default PageVehicles
+export default PageTestimonials
