@@ -3,8 +3,12 @@ import '../styles/Gallery.css'
 
 
 const persons = [
-  { name: 'Luke Miller', title: 'Salesman', image: "../../public/images/people/p1.png" },
-  { name: 'Michael Diaz', title: 'Business Owner', image: 'link-to-michael-image.jpg' },
+  { name: 'Luke Miller', title: 'Salesman', image: "https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/people/p1.png?raw=true" },
+  { name: 'Michael Diaz', title: 'Business Owner', image: 'https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/people/p2.png?raw=true' },
+  { name: 'Michael Diaz', title: 'Business Owner', image: 'https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/people/p3.png?raw=true' },
+  { name: 'Michael Diaz', title: 'Business Owner', image: 'https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/people/p4.png?raw=true' },
+  { name: 'Michael Diaz', title: 'Business Owner', image: 'https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/people/p5.png?raw=true' },
+  { name: 'Michael Diaz', title: 'Business Owner', image: 'https://github.com/ToniRajamaki/moto-rental/blob/main/public/images/people/p6.png?raw=true' },
   // Add other person objects here
 ];
 
