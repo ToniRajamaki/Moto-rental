@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 🏍️ Moto Rental Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Moto Rental Landing Page** project! This is a landing page designed for a motorcycle rental service, allowing users to search and rent motorcycles with ease. Built with React, HTML, and CSS, the project features a clean, modern UI with some nice animations. It is still a work in progress regarding responsiveness, but the page is fully functional and live on GitHub Pages.
 
-## Available Scripts
+[![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/) [![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-%23333.svg?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+Check out the live version of the landing page here: [Moto Rental Landing Page](https://tonirajamaki.github.io/moto-rental/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="https://github.com/ToniRajamaki/folio2/blob/bea74f901423c5ba0497eb9ec2dbd07c83bd5d8a/public/assets/project-thumbnails/moto-rental-thumbnail.png?raw=true" alt="Moto Rental Landing Page Screenshot" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+<p align="center">
+  <img src="https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/GitHub_Pages-%23333.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
+  <img src="https://img.shields.io/badge/Dall--E%203-%234f5b93.svg?style=for-the-badge&logo=openai&logoColor=white" alt="Dall-E 3" />
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌟 Key Features
 
-### `npm run build`
+- **Search and Rent Motorcycles**: Allows users to search for and rent motorcycles.
+- **Modern Design**: A clean and contemporary design with attractive animations.
+- **Reusable Components**: Built several reusable components for scalability.
+- **6 Unique Routes**: This is a multipage website featuring six different pages.
+- **Logo Design**: Custom logos designed for the site.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📚 How to Run the Project Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/ToniRajamaki/moto-rental.git
+   ```
+2. **Install Dependencies**:
+   ```sh
+   npm install
+   ```
+3. **Run the Application**:
+   ```sh
+   npm start
+   ```
+   The application will be running at `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🗺️ Roadmap
 
-### `npm run eject`
+- [x] **Create Motorcycle Search Functionality**: Implement search feature to browse motorcycles.
+- [x] **Develop Reusable Components**: Create reusable components for efficient code maintenance.
+- [x] **Add Logo and Branding**: Design custom logos using Dall-E 3.
+- [ ] **Responsive Design**: Make the page fully responsive across all device sizes.
+- [ ] **Add Booking Confirmation Page**: Introduce a booking confirmation step to enhance the rental process.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Connect with Me
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="left">
+  <a href="https://linkedin.com/in/toni-rajam%C3%A4ki-025055283" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Badge" />
+  </a>
+</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Extra Info**: This project was a fun way to practice modern web development, with a focus on reusable components and efficient design. Although the responsive design is still a work in progress, the current state of the project offers a solid, modern interface for motorcycle rentals.
